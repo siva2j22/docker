@@ -1,4 +1,4 @@
 FROM almalinux:9
-ENTRYPOINT ["echo", "Hello"]
+#CMD ["ping", "google.com"]
 ENTRYPOINT ["ping", "google.com"]
-CMD ["sleep", "200"]
+ENTRYPOINT ["ping", "google.com"]
