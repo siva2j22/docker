@@ -3,5 +3,5 @@ FROM almalinux:9
 #RUN pwd
 RUN mkdir /app
 WORKDIR /app
-RUN PWD
+RUN pwd
 CMD ["sleep", "1000"]
